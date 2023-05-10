@@ -25,7 +25,7 @@ namespace offsets
     const long LIFE_STATE = 0x0798;                 // [RecvTable.DT_Player]            -> m_lifeState
     const long VEC_PUNCH_WEAPON_ANGLE = 0x24b0;     // [DataMap.C_Player]               -> m_currentFrameLocalPlayer.m_vecPunchWeapon_Angle
     const long VIEW_ANGLE = (0x25ac - 0x14);        // [DataMap.C_Player]               -> m_ammoPoolCapacity - 0x14
-    const long BLEEDOUT_STATE = 0x2740;             // [RecvTable.DT_Player]            -> m_bleedoutState
-    const long ZOOMING = 0x1c51;                    // [RecvTable.DT_Player]            -> m_bZooming
-    const long LAST_VISIBLE_TIME = 0x1A80;          // [Miscellaneous]                  -> CPlayer!lastVisibleTime
+    const long BLEEDOUT_STATE = 0x2750;             // [RecvTable.DT_Player]            -> m_bleedoutState
+    const long ZOOMING = 0x1c61;                    // [RecvTable.DT_Player]            -> m_bZooming
+    const long LAST_VISIBLE_TIME = 0x1a80;          // [Miscellaneous]                  -> CPlayer!lastVisibleTime
 }
