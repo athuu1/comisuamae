@@ -5,13 +5,13 @@ namespace offsets
 {
     // buttons
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const long IN_ATTACK = 0x07871c50;            // [Buttons] -> in_attack
+    const long IN_ATTACK = 0x074034b0;            // [Buttons] -> in_attack
     // core
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const long REGION = 0x140000000;              // [Mine]          -> Region
-    const long LEVEL = 0x1639960;                 // [Miscellaneous] -> LevelName
-    const long LOCAL_PLAYER = (0x020c1130 + 0x8); // [Miscellaneous] -> AVC_GameMovement+0x8
-    const long ENTITY_LIST = 0x1d0fe58;           // [Miscellaneous] -> cl_entitylist
+    const long LEVEL = 0x165bd30;                 // [Miscellaneous] -> LevelName
+    const long LOCAL_PLAYER = (0x02139480 + 0x8 = 0x02139488); // [Miscellaneous] -> AVC_GameMovement+0x8
+    const long ENTITY_LIST = 0x1d87e88;           // [Miscellaneous] -> cl_entitylist
     // entity
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const long LOCAL_ORIGIN = 0x0158; // [DataMap.CBaseViewModel]    -> m_localOrigin
@@ -27,5 +27,5 @@ namespace offsets
     const long VIEW_ANGLE = (0x25ac - 0x14);        // [DataMap.C_Player]               -> m_ammoPoolCapacity - 0x14
     const long BLEEDOUT_STATE = 0x2740;             // [RecvTable.DT_Player]            -> m_bleedoutState
     const long ZOOMING = 0x1c51;                    // [RecvTable.DT_Player]            -> m_bZooming
-    const long LAST_VISIBLE_TIME = 0x1a78;          // [Miscellaneous]                  -> CPlayer!lastVisibleTime
+    const long LAST_VISIBLE_TIME = 0x1A80;          // [Miscellaneous]                  -> CPlayer!lastVisibleTime
 }
