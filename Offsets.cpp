@@ -10,7 +10,7 @@ namespace offsets
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const long REGION = 0x140000000;              // [Mine]          -> Region
     const long LEVEL = 0x165bd30;                 // [Miscellaneous] -> LevelName
-    const long LOCAL_PLAYER = (0x02139480 + 0x8); // [Miscellaneous] -> AVC_GameMovement+0x8
+    const long LOCAL_PLAYER = 0x02139480 + 0x8 = 0x02139488; // [Miscellaneous] -> AVC_GameMovement+0x8
     const long ENTITY_LIST = 0x1d87e88;           // [Miscellaneous] -> cl_entitylist
     // entity
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -27,5 +27,5 @@ namespace offsets
     const long VIEW_ANGLE = (0x25ac - 0x14);        // [DataMap.C_Player]               -> m_ammoPoolCapacity - 0x14
     const long BLEEDOUT_STATE = 0x2750;             // [RecvTable.DT_Player]            -> m_bleedoutState
     const long ZOOMING = 0x1c61;                    // [RecvTable.DT_Player]            -> m_bZooming
-    const long LAST_VISIBLE_TIME = 0x1a80;          // [Miscellaneous]                  -> CPlayer!lastVisibleTime
+    const long LAST_VISIBLE_TIME = 0x1A80;          // [Miscellaneous]                  -> CPlayer!lastVisibleTime
 }
